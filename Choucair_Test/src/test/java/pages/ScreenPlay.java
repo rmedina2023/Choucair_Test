@@ -17,7 +17,7 @@ public class ScreenPlay {
     protected static WebDriver driver;
     public static WebDriverWait wait;
 
-    //Para declarar el webdriver del navegador
+    //Webdriver declaration
     static{
         System.setProperty("webdriver.chrome.driver", "C:/Users/ramon/Documents/chromedriver_win32/chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();

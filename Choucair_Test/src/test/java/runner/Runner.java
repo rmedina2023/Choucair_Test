@@ -6,9 +6,6 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import pages.ScreenPlay;
 
-//Imports de librerias para las versiones más recientes de Cucumber
-//import io.cucumber.junit.Cucumber;
-//import io.cucumber.junit.CucumberOptions;
 
 
 //Run With to execute Selenium with Cucumber

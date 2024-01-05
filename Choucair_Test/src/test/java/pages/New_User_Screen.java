@@ -65,21 +65,26 @@ public class New_User_Screen extends ScreenPlay {
     }
 
     public void clickNextDevices(){
+        //Click on Next Button
         clickElement(nextDevicesButton);
     }
 
     public void clickLastStep(){
+        //Click on Next Button
         clickElement(lastStepButton);
     }
 
     public void introducePassword(){
+        //Introduce the password
         write(passwordTextBox,"Abcdefgh1234567890");
         write(confirmPasswordTextBox,"Abcdefgh1234567890");
+        //Check the terms and policies checkboxes
         clickElement(termsCheckBox);
         clickElement(policiesCheckBox);
     }
 
     public void clickComplete(){
+        //Click con Complete option
         clickElement(completeButton);
     }
 
